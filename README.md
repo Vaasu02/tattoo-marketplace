@@ -174,11 +174,9 @@ Go to your project settings → Environment Variables and add:
 
 ## AI Tools Usage
 
-This project was developed with the assistance of AI tools to accelerate development:
-
 - **Code Generation:** Used AI to generate boilerplate code, components, and API routes
 - **Type Definitions:** AI-assisted TypeScript type definitions and interfaces
-- **Documentation:** AI helped structure and write comprehensive README and documentation
+- **Documentation:** AI helped structure and write comprehensive README
 
 **Impact:** Significantly reduced development time from ~12 hours to ~6-8 hours, allowing more focus on:
 - UX polish and design details
