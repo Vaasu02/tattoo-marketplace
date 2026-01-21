@@ -21,10 +21,10 @@ const seedArtists: Omit<Artist, 'id' | 'created_at' | 'updated_at'>[] = [
     name: 'Priya Sharma',
     bio: 'Specialized in minimalist and geometric tattoos. 5+ years of experience creating clean, meaningful designs.',
     portfolio: [
-      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=80',
-      'https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=800&q=80',
-      'https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=800&q=80',
-      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=80',
+      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=85',
+      'https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=800&q=85',
+      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=85',
+      'https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=800&q=85',
     ],
     location: 'Bangalore',
     specialties: ['Minimalist', 'Geometric', 'Linework'],
@@ -33,11 +33,11 @@ const seedArtists: Omit<Artist, 'id' | 'created_at' | 'updated_at'>[] = [
     name: 'Arjun Patel',
     bio: 'Master of traditional Indian and mandala designs. Bringing ancient art forms to modern tattoo culture.',
     portfolio: [
-      'https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=800&q=80',
-      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=80',
-      'https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=800&q=80',
-      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=80',
-      'https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=800&q=80',
+      'https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=800&q=85',
+      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=85',
+      'https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=800&q=85',
+      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=85',
+      'https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=800&q=85',
     ],
     location: 'Mumbai',
     specialties: ['Traditional', 'Mandala', 'Indian Art'],
@@ -46,9 +46,9 @@ const seedArtists: Omit<Artist, 'id' | 'created_at' | 'updated_at'>[] = [
     name: 'Maya Reddy',
     bio: 'Watercolor and abstract tattoo specialist. Known for vibrant colors and flowing designs.',
     portfolio: [
-      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=80',
-      'https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=800&q=80',
-      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=80',
+      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=85',
+      'https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=800&q=85',
+      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=85',
     ],
     location: 'Delhi',
     specialties: ['Watercolor', 'Abstract', 'Color Work'],
@@ -57,10 +57,10 @@ const seedArtists: Omit<Artist, 'id' | 'created_at' | 'updated_at'>[] = [
     name: 'Rohan Kumar',
     bio: 'Realism and portrait expert. Creating lifelike tattoos that capture every detail.',
     portfolio: [
-      'https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=800&q=80',
-      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=80',
-      'https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=800&q=80',
-      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=80',
+      'https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=800&q=85',
+      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=85',
+      'https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=800&q=85',
+      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=85',
     ],
     location: 'Pune',
     specialties: ['Realism', 'Portraits', 'Black & Gray'],
@@ -69,9 +69,9 @@ const seedArtists: Omit<Artist, 'id' | 'created_at' | 'updated_at'>[] = [
     name: 'Sneha Desai',
     bio: 'Fine line and delicate tattoo artist. Specializing in dainty, elegant designs.',
     portfolio: [
-      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=80',
-      'https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=800&q=80',
-      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=80',
+      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=85',
+      'https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=800&q=85',
+      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=85',
     ],
     location: 'Hyderabad',
     specialties: ['Fine Line', 'Delicate', 'Minimalist'],
@@ -121,4 +121,3 @@ if (require.main === module) {
       process.exit(1)
     })
 }
-
