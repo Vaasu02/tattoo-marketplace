@@ -10,10 +10,10 @@ export function Navigation() {
         </Link>
         <div className="flex items-center gap-4">
           <Link href="/">
-            <Button variant="ghost">Artists</Button>
+            <Button className="cursor-pointer" variant="ghost">Artists</Button>
           </Link>
           <Link href="/booking">
-            <Button>Book Appointment</Button>
+            <Button className="cursor-pointer">Book Appointment</Button>
           </Link>
         </div>
       </div>
