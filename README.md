@@ -131,6 +131,11 @@ Go to your project settings → Environment Variables and add:
 - `NEXT_PUBLIC_SUPABASE_URL`
 - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
 
+## Live App URL
+
+- **App URL:** https://tattoomarketplace.vercel.app  
+  This single Next.js app serves both the **frontend UI** and the **backend API routes** (bookings API).
+
 ## Key Implementation Choices
 
 ### Why Next.js App Router?
@@ -178,7 +183,7 @@ Go to your project settings → Environment Variables and add:
 - **Type Definitions:** AI-assisted TypeScript type definitions and interfaces
 - **Documentation:** AI helped structure and write comprehensive README
 
-**Impact:** Significantly reduced development time from ~12 hours to ~6-8 hours, allowing more focus on:
+**Impact:** Significantly reduced development time from ~12 hours to ~8-10 hours, allowing more focus on:
 - UX polish and design details
 - Testing and edge cases
 - Documentation quality
@@ -201,3 +206,21 @@ Go to your project settings → Environment Variables and add:
 - **Future Enhancement:** Could add Jest/Vitest for unit tests and Playwright for E2E tests
 
 - **Current:** Manual deployment via Vercel
+
+## Assignment Q&A
+
+### Why do you want to join an early-stage startup?
+
+I enjoy working close to the problem and the users, where decisions are fast and I can see the impact of my work quickly. Early-stage teams give more ownership across the stack product, design, and engineering  which matches how I like to work. I’m motivated by building 0→1 products, iterating from real feedback, and taking responsibility end to end rather than just shipping isolated tickets.
+
+### Describe the craziest project you built single-handedly (what, impact, tech, outcome).
+
+I built a full-stack project where I owned everything from database design to deployment and UX. It had realtime interactions and a fairly complex UI, which forced me to make pragmatic tradeoffs (performance vs complexity, DX vs UX) and learn quickly across the stack. The end result was a production-ready tool that significantly reduced manual work for its users and taught me how to slice big ideas into shippable pieces while keeping code quality and design standards high. You can see the deployed project here: `https://managestaging.foyr.com/`.
+
+### Why do you want to join Inksesh specifically?
+
+Inksesh is solving a trust-heavy problem: helping people discover artists and get their first tattoos with confidence and great experience. I like that you care deeply about UX and are building a profitable, bootstrapped business instead of chasing hype. The focus on design as the product, the builder culture, and the modern stack (Next.js, Cloudflare, etc.) match how I already like to work, and I’d be excited to help take the product from -1 → 1 and iterate quickly with you.
+
+### What would you add to this project next if given 2 weeks?
+
+First, I’d deepen discovery: stronger search and filters (by style, city, budget) and richer artist pages (pricing hints, FAQs, healed work). Next, I’d add a lightweight artist/studio dashboard to manage bookings and availability, plus basic notifications (email/WhatsApp) for confirmations. Finally, I’d add image uploads backed by storage, simple reviews/ratings, and basic analytics to understand where users drop off in the discovery → booking funnel.
